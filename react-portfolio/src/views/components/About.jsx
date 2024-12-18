@@ -20,16 +20,16 @@ const About = () => {
                       <p>Whether it is in normal conversation or having to do with my work, whoever or whatever I am engaged with receives my undivided attention. I pride myself on paying close attention to the little things, whether that be making sure everyone feels included or finding a itty-bitty bug in some code!</p>
                       </div>
                       <div className="inside-left-pictures">
-                        <img src="../../src/assets/communication.webp" alt="Magnifying Glass" className="img-left"/>
-                        <img src="../../src/assets/finding-bugs.jpg" alt="Finding Bugs in Code" className="img-right"/>
+                        <img src="/images/communication.webp" alt="Magnifying Glass" className="img-left"/>
+                        <img src="/images/finding-bugs.jpg" alt="Finding Bugs in Code" className="img-right"/>
                       </div>
                     </div>
                   </div>
                   <div className="about-right">
                     <div className="inside-right">
                       <div className="inside-right-pictures">
-                          <img src="../../src/assets/coding-concept.avif" alt="Coding Word" className="img-left"/>
-                          <img src="../../src/assets/Healthy habit-cuate.png" alt="Finding Bugs in Code" className="img-right" style={{backgroundColor: "white"}}/>
+                          <img src="/images/coding-concept.avif" alt="Coding Word" className="img-left"/>
+                          <img src="/images/Healthy habit-cuate.png" alt="Finding Bugs in Code" className="img-right" style={{backgroundColor: "white"}}/>
                         </div>
                       <div style={{flexDirection: "column", marginLeft: "20px"}}>
                         <h2>Loves to be Active</h2>
@@ -46,7 +46,7 @@ const About = () => {
                       <p>A new chapter is opening up and I am curious what is in store for me next. School has been good to me, graduating with a 3.9 GPA, I thrived in that environment, but I am hungry to begin a career in the field I love, working on projects I am passionate about. It's the beginning of the rest of my life, and I am excited to start it!</p>
                       </div>
                       <div className="inside-left-pictures">
-                        <img src="../../src/assets/newGrad2.avif" alt="New Grad" className="img-right-solo" style={{marginRight: "20px", height: "auto", width: "35vw"}}/>
+                        <img src="/images/newGrad2.avif" alt="New Grad" className="img-right-solo" style={{marginRight: "20px", height: "auto", width: "35vw"}}/>
                       </div>
                     </div>
                     <div className="button-holder">

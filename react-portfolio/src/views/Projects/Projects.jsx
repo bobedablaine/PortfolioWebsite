@@ -87,20 +87,20 @@ const Projects = () => {
                 <p>A more in-depth look into my projects!</p>
                 <div className="midgard-project">
                   <h1>Midgard</h1>
-                  <img src="../../src/assets/midgard-home.png" alt="Midgard Application Home Screen" className="midgard-home"/>
+                  <img src="/images/midgard-home.png" alt="Midgard Application Home Screen" className="midgard-home"/>
                   <p>The home page of Midgard allowing the user to see all the navigable pages and giving a professional air to the website. Establishes a consistant aesthetic that is present throughout the entire application.</p>
-                  <img src="../../src/assets/midgard-content.png" alt="Midgard Application Content Screen" className="midgard-content"/>
+                  <img src="/images/midgard-content.png" alt="Midgard Application Content Screen" className="midgard-content"/>
                   <p style={{clear: "right"}}>The interactive textbook content that takes the user through a variety of cybersecurity topics that can be crucial to know. Our application provides the user interactive activities throughout the chapters and with a way for them to quiz themselves whenever they feel confident in what they read. Also with an integrated AI terminal allowing users to ask questions about the content whenever they might need a refresher.</p>
-                  <img src="../../src/assets/midgard-tools.png" alt="Midgard Application Tools Screen" className="midgard-tools"/>
+                  <img src="/images/midgard-tools.png" alt="Midgard Application Tools Screen" className="midgard-tools"/>
                   <p>The tools page of Midgard which gives users the ability to apply what they have learned by scanning potentially malicious url's or creating a secure password with our password generator.</p>
                 </div>
 
                 <div className="mover-project">
                   <h1>Mover Melee</h1>
-                  <img src="../../src/assets/mover-melee-hub.png" alt="Boss fight in Mover Melee" className="mover-home"/>
+                  <img src="/images/mover-melee-hub.png" alt="Boss fight in Mover Melee" className="mover-home"/>
                   <p>Mover Melee begins with the player in a hub that allows them to pick and use one of three weapons, each with a unique style of play. This game contains a progression system where the player must defeat a room of enemies north, west, and east of the npc in the hub and saves the players progression upon victory.</p>
 
-                  <img src="../../src/assets/mover-melee.png" alt="Boss fight in Mover Melee" className="mover-boss"/>
+                  <img src="/images/mover-melee.png" alt="Boss fight in Mover Melee" className="mover-boss"/>
                   <p style={{clear: "right"}}>Upon completion of the previous two rooms, the player is faced with a boss fight where the boss will spawn smaller enemies, each on one hit point, during it. This project, while turned in to a class, became mostly a passion project for me. I had a lot of fun developing the different weapon styles and progression system, as well as implementing some music to give it some much needed ambience. I hope this glimpse into it was interesting for you too!</p>
 
                 </div>

@@ -12,7 +12,7 @@ const Profile = () => {
             </div>
             </div>
             <div className="picture-container">
-                <img src="../../src/assets/profile.jpg" alt="My Profile" className='profile-picture'/>
+                <img src="/images/profile.jpg" alt="My Profile" className='profile-picture'/>
             </div>
         </div>
         </>
