@@ -3,7 +3,7 @@
 ## Instructions on Deployment
 -install dependencies using "npm install" in the integrated terminal in react-portfolio.
 
--to run the website, use "npm run dev" to run the application on localhost
+-to run the website, use "npm run build" and then "npm run preview" to run the application on localhost
 
 ## Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
