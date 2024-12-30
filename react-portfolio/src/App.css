@@ -39,17 +39,17 @@ html, body {
 h1 {
   margin-left: 20px;
 
-  font-size: 56px;
+  font-size: calc(15px + 2.5vw);
   font-family: Luminari;
   font-style: italic;
 }
 
 p {
-  font-size: 20px;
+  font-size: calc(8px + 0.75vw);
 }
 
 h2 {
-  font-size: 36px;
+  font-size: calc(12px + 1.3vw);
 }
 
 .typing {
@@ -61,7 +61,7 @@ h2 {
   overflow: hidden;
   white-space: initial;
 
-  font-size: 28px;
+  font-size: calc(12px + 1vw);
   font-family: Luminari;
   font-style: italic;
 }
@@ -111,8 +111,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   align-items: center;
 }
 
@@ -140,7 +140,6 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
-  font-size: 16px;
   cursor: pointer;
   z-index: 1000;
   background-color: rgba(73, 42, 34, 0.411);
@@ -149,7 +148,7 @@ body {
 
 .menu-button {
   position: fixed;
-  font-size: 16px;
+  font-size: calc(1px + 0.75vw);
   cursor: pointer;
   z-index: 1000; 
   background-color: rgba(73, 42, 34, 0.411);
@@ -200,7 +199,7 @@ body {
 }
 
 .menu-list a {
-  font-size: 36px;
+  font-size: calc(8px + 1.5vw);
   margin: 50px 0px;
   color: black;
   cursor: pointer;
@@ -251,8 +250,7 @@ body {
 .profile-picture {
   border-radius: 50%;
   width: auto;
-  height: 400px;
-  margin-right: 80px;
+  height: 50vh;
 }
 
 
@@ -269,7 +267,7 @@ nav a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 18px;
+  font-size: calc(8px + 0.75vw);
 }
 
 nav a:hover {
@@ -280,9 +278,9 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content:first baseline;
-  margin-top: 350px;
-  margin-bottom: 200px;
-  margin-left: 20px;
+  margin-top: 35vh;
+  margin-bottom: 25vh;
+  margin-left: 1vw;
 }
 
 .about-left {
@@ -364,8 +362,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
   margin-left: 40px;
   width: 80vw;
   align-items: center;
@@ -376,7 +374,7 @@ nav a:hover {
 }
 
 .midgard-project {
-  margin-top: 50px;
+  margin-top: 10vh;
 }
 
 .midgard-home {
@@ -399,7 +397,7 @@ nav a:hover {
 }
 
 .mover-project {
-  margin-top: 50px;
+  margin-top: 20vh;
 }
 
 .mover-home {
@@ -435,8 +433,8 @@ nav a:hover {
 }
 
 .github-project button {
-  margin-left: 20px;
-  font-size: 48px;
+  margin-left: 2.5vw;
+  font-size: calc(12px + 2vw);
   padding: 5px 10px 0px 10px;
 }
 
@@ -448,6 +446,7 @@ nav a:hover {
   margin-top: 20px;
   margin-bottom: 20px;
  
+  font-size: calc(5px + 0.75vw);
   width: 100%;
   align-items: center;
 }
@@ -462,8 +461,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
   align-items: center;
 }
 
@@ -486,8 +485,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
   margin-left: 40px;
   align-items: center;
 }
@@ -503,19 +502,19 @@ nav a:hover {
 
 .skills-list {
   list-style-type: none;
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 
 .skills-right h3 {
-  font-size: 30px;
+  font-size: calc(12px + 1vw);
 }
 .skills-left h3 {
-  font-size: 30px;
+  font-size: calc(12px + 1vw);
 }
 
 .skills-list li {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: calc(8px + 1vw);
   font-family: Luminari;
 }
 

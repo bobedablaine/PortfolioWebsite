@@ -5,6 +5,7 @@ import Profile from '../components/Profile'
 import About from '../components/About'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
+import Skills from '../components/Skills'
 
 const Home = () => {
     const [backgroundColor, setBackgroundColor] = useState("#ecb6f3"); // Initial color (red)
@@ -85,29 +86,7 @@ const Home = () => {
                 <Profile/>
                 <About/>
                 <Portfolio/>
-                <div className="skills-content" id="skills">
-                  <h1>Skills</h1>
-                  <div className="skills-container">
-                    <div className="skills-left">
-                    <h3>Technical</h3>
-                    <ul className="skills-list">
-                      <li>Frontend Developement</li>
-                      <li>Backend Developement</li>
-                      <li>Logic and Processing</li>
-                      <li>Work-flow Management</li>
-                    </ul>
-                    </div>
-                    <div className="skills-right">
-                    <h3>Non-Technical</h3>
-                    <ul className="skills-list">
-                      <li>Fast Learner</li>
-                      <li>Strong Communicator</li>
-                      <li>Detail-oriented</li>
-                      <li>Independent Worker</li>
-                    </ul>
-                    </div>
-                  </div>
-                </div>
+                <Skills/>
                 <Contact/>
               </div>
       

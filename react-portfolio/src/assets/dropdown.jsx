@@ -42,11 +42,11 @@ const DropDownMenu = () => {
       {isMenuOpen && (
         <div className="dropdown-menu">
           <ul className="menu-list">
-            <li className="menu-item1" style={{marginBottom: '40px'}}><a href="#home">Home</a></li>
-            <li className="menu-item2" style={{marginBottom: '40px'}}><a href="#about">About</a></li>
-            <li className="menu-item3" style={{marginBottom: '40px'}}><a href="#portfolio">Portfolio</a></li>
-            <li className="menu-item4" style={{marginBottom: '40px'}}><a href="#skills">Skills</a></li>
-            <li className="menu-item5" style={{marginBottom: '40px'}}><a href="#contact">Contact</a></li>
+            <li className="menu-item1" style={{marginBottom: '5vh'}}><a href="#home">Home</a></li>
+            <li className="menu-item2" style={{marginBottom: '5vh'}}><a href="#about">About</a></li>
+            <li className="menu-item3" style={{marginBottom: '5vh'}}><a href="#portfolio">Portfolio</a></li>
+            <li className="menu-item4" style={{marginBottom: '5vh'}}><a href="#skills">Skills</a></li>
+            <li className="menu-item5" style={{marginBottom: '5vh'}}><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}
